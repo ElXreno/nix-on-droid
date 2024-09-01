@@ -37,7 +37,6 @@ in
 
       prootStatic = mkOption {
         type = types.package;
-        readOnly = true;
         internal = true;
         description = "<literal>proot-static</literal> package.";
       };
